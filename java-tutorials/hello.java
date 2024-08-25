@@ -11,6 +11,33 @@ class Hello
         System.out.println(num1);
         System.out.println(num1 + num2);
         System.out.println(result);
+
+        // data types
+        byte by = 127;
+        short sh = 558;
+        long l = 5854l; // have to add l at the end to show it's a long number 
+        float f = 5.8f; // have to add an f at the end 
+        double d = 5.8; // 5.8 is a double, adding an f at the end makes it a float
+
+        char c = 's'; // cannot use double quotes, only single quotes 
+        char e = '8'; // you can put a number
+
+        boolean b = true;
+
+        // literals 
+        System.out.println("Literals:");
+        int num3 = 0b101;
+        System.out.println(num3); // prints 5
+        int num4 = 0x7e;
+        System.out.println(num4); // prints 126
+        int num5 = 10_0_00_000_0;
+        System.out.println(num5); // prints 100000000
+        double double1 = 12;
+        System.out.println(double1); // prints 12.0
+
+        char char1 = 'a';
+        char1++;
+        System.out.println(char1); // prints b
     }
 
 }
